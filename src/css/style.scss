@@ -8,6 +8,34 @@
 }
 
 body {
+  animation: back 10s infinite;
+}
+
+@keyframes back {
+  0% {
+    background-color: rgb(86, 90, 89);
+  }
+
+  25% {
+    background-color: rgb(139 118 174);
+  }
+
+  50% {
+    background-color: rgb(94, 94, 94);
+  }
+
+  75% {
+    background-color: rgb(139 118 174);
+  }
+
+  100% {
+    background-color: rgb(86, 90, 89);
+  }
+
+}
+
+body {
+
   background: #f6f5f7;
   display: flex;
   justify-content: center;
@@ -92,10 +120,11 @@ input {
 }
 
 .container {
+  box-shadow: 0px 0px 73px 10px #1d076a;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.22);
+  // box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+  //   0 10px 10px rgba(0, 0, 0, 0.22);
   position: relative;
   overflow: hidden;
   width: 768px;
@@ -167,7 +196,7 @@ input {
 .overlay {
   background: #FF416C;
   background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  background: linear-gradient(339deg, #29246b, #ff00d3);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
